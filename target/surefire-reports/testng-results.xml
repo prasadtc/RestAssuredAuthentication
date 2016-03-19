@@ -1,50 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="11314" started-at="2016-03-19T08:22:04Z" finished-at="2016-03-19T08:22:15Z">
+  <suite name="Command line suite" duration-ms="12964" started-at="2016-03-19T10:34:28Z" finished-at="2016-03-19T10:34:41Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="11314" started-at="2016-03-19T08:22:04Z" finished-at="2016-03-19T08:22:15Z">
+    <test name="Command line test" duration-ms="12964" started-at="2016-03-19T10:34:28Z" finished-at="2016-03-19T10:34:41Z">
+      <class name="com.ontestautomation.restassured.authentication.AnotherTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.ontestautomation.restassured.authentication.AnotherTest@60f82f98]" name="f" duration-ms="1" started-at="2016-03-19T16:04:28Z" finished-at="2016-03-19T16:04:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.ontestautomation.restassured.authentication.AnotherTest -->
       <class name="com.ontestautomation.restassured.authentication.NewTest">
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.ontestautomation.restassured.authentication.NewTest@96532d6]" name="beforeSuite" is-config="true" duration-ms="12578" started-at="2016-03-19T13:51:46Z" finished-at="2016-03-19T13:51:58Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.ontestautomation.restassured.authentication.NewTest@4411d970]" name="beforeSuite" is-config="true" duration-ms="9195" started-at="2016-03-19T16:04:10Z" finished-at="2016-03-19T16:04:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c4c0b41]]>
+                <![CDATA[org.testng.TestRunner@40ab8a8]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="requestToken(org.testng.ITestContext)[pri:0, instance:com.ontestautomation.restassured.authentication.RestAssuredAuthenticationTest@3796751b]" name="requestToken" is-config="true" duration-ms="5979" started-at="2016-03-19T13:51:58Z" finished-at="2016-03-19T13:52:04Z">
+        <test-method status="PASS" signature="requestToken(org.testng.ITestContext)[pri:0, instance:com.ontestautomation.restassured.authentication.RestAssuredAuthenticationTest@6442b0a6]" name="requestToken" is-config="true" duration-ms="8906" started-at="2016-03-19T16:04:19Z" finished-at="2016-03-19T16:04:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c4c0b41]]>
+                <![CDATA[org.testng.TestRunner@40ab8a8]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- requestToken -->
-        <test-method status="PASS" signature="f(org.testng.ITestContext)[pri:0, instance:com.ontestautomation.restassured.authentication.NewTest@96532d6]" name="f" duration-ms="7678" started-at="2016-03-19T13:52:04Z" finished-at="2016-03-19T13:52:12Z">
+        <test-method status="PASS" signature="f(org.testng.ITestContext)[pri:0, instance:com.ontestautomation.restassured.authentication.NewTest@4411d970]" name="f" duration-ms="7566" started-at="2016-03-19T16:04:28Z" finished-at="2016-03-19T16:04:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c4c0b41]]>
+                <![CDATA[org.testng.TestRunner@40ab8a8]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterSuite(org.testng.ITestContext)[pri:0, instance:com.ontestautomation.restassured.authentication.NewTest@96532d6]" name="afterSuite" is-config="true" duration-ms="608" started-at="2016-03-19T13:52:15Z" finished-at="2016-03-19T13:52:16Z">
+        <test-method status="PASS" signature="afterSuite(org.testng.ITestContext)[pri:0, instance:com.ontestautomation.restassured.authentication.NewTest@4411d970]" name="afterSuite" is-config="true" duration-ms="1202" started-at="2016-03-19T16:04:41Z" finished-at="2016-03-19T16:04:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c4c0b41]]>
+                <![CDATA[org.testng.TestRunner@40ab8a8]]>
               </value>
             </param>
           </params>
@@ -53,22 +59,22 @@
         </test-method> <!-- afterSuite -->
       </class> <!-- com.ontestautomation.restassured.authentication.NewTest -->
       <class name="com.ontestautomation.restassured.authentication.RestAssuredAuthenticationTest">
-        <test-method status="PASS" signature="checkNumberOfAssociatedPaymentsIsEqualToZero(org.testng.ITestContext)[pri:0, instance:com.ontestautomation.restassured.authentication.RestAssuredAuthenticationTest@3796751b]" name="checkNumberOfAssociatedPaymentsIsEqualToZero" duration-ms="1757" started-at="2016-03-19T13:52:12Z" finished-at="2016-03-19T13:52:14Z">
+        <test-method status="PASS" signature="checkNumberOfAssociatedPaymentsIsEqualToZero(org.testng.ITestContext)[pri:0, instance:com.ontestautomation.restassured.authentication.RestAssuredAuthenticationTest@6442b0a6]" name="checkNumberOfAssociatedPaymentsIsEqualToZero" duration-ms="2168" started-at="2016-03-19T16:04:36Z" finished-at="2016-03-19T16:04:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c4c0b41]]>
+                <![CDATA[org.testng.TestRunner@40ab8a8]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkNumberOfAssociatedPaymentsIsEqualToZero -->
-        <test-method status="PASS" signature="checkUserInfoContainsUserId(org.testng.ITestContext)[pri:0, instance:com.ontestautomation.restassured.authentication.RestAssuredAuthenticationTest@3796751b]" name="checkUserInfoContainsUserId" duration-ms="1867" started-at="2016-03-19T13:52:14Z" finished-at="2016-03-19T13:52:15Z">
+        <test-method status="PASS" signature="checkUserInfoContainsUserId(org.testng.ITestContext)[pri:0, instance:com.ontestautomation.restassured.authentication.RestAssuredAuthenticationTest@6442b0a6]" name="checkUserInfoContainsUserId" duration-ms="3221" started-at="2016-03-19T16:04:38Z" finished-at="2016-03-19T16:04:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c4c0b41]]>
+                <![CDATA[org.testng.TestRunner@40ab8a8]]>
               </value>
             </param>
           </params>
